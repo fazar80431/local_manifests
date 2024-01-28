@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="gh"
+           fetch="https://github.com" />
+
+   <remote name="fazar80431"
+            fetch="https://github.com/fazar80431"
+            clone-depth="1" />    
+			
+ <!--Path-->
+ <project path="device/samsung/a12s" name="crdroid_device_samsung_a12s" remote="gh" revision="12.1" />
+			
+ <!--Tree -->
+ <project path="device/samsung/exynos850-common" name="exynos850-crdroid/crdroid_device_samsung_exynos850-common" remote="gh" revision="12.1" />
+
+
+ <!--Kernel -->
+ <project path="kernel/samsung/exynos850" name="phywizz/a127f-T-u9" remote="gh" revision="main" />
+ 
+ <!--Vendor -->
+ <project path="vendor/samsung/exynos850-common" name="exynos850-crdroid/crdroid_device_samsung_exynos850-common" remote="gh" revision="12.1" />
+<!--CleanUp Existing-->
+  <!--<remove-project name="LineageOS/android_vendor_lineage"/>-->
+
+</manifest>
