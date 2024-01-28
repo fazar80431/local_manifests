@@ -8,7 +8,7 @@
             clone-depth="1" />    
 			
  <!--Path-->
- <project path="device/samsung/a12s" name="crdroid_device_samsung_a12s" remote="gh" revision="12.1" />
+ <project path="device/samsung/a12s" name="crdroid_device_samsung_a12s" remote="fazar80431" revision="12.1" />
 			
  <!--Tree -->
  <project path="device/samsung/exynos850-common" name="exynos850-crdroid/crdroid_device_samsung_exynos850-common" remote="gh" revision="12.1" />
